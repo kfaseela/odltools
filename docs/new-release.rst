@@ -20,7 +20,7 @@ Building a new release of odltools
     vi odltools/__init__.py
     git add odltools/__init__.py
     git commit -s -m "release x.y.z"
-    git tags -m "release x.y.z" -a x.y.z
+    git tag -m "release x.y.z" -a x.y.z
 
 #. Run the Tests ::
 
